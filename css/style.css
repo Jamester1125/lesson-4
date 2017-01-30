@@ -61,14 +61,30 @@ body {
 }
 
 #middle-wrapper-width {
+    display: flex;
+    font-family: 'Lato', sans-serif;
+    max-width: 960px;
+    margin: 0 auto;
     
 }
 
-#main-content-wrapper {
-    background-color:greenyellow;
-    width: 80%;
+#middle-wrapper {
+    
+}
+.side-by-side {
+    display: flex;
+    
+}
+#main-content-wrapper  .image-content {
+    text-align: center;
+    width: 50%;
+    margin-top: 50px;
 }
 
+.image-content > img {
+    max-width: 200px;
+    border-radius: 50%;
+}
 #aside-content-wrapper {
     background-color:plum;
     width:20%;
