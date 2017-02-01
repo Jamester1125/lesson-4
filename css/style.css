@@ -85,6 +85,32 @@ body {
     max-width: 200px;
     border-radius: 50%;
 }
+
+.image-content > h4 {
+    font-family: 'Lato' , sans-serif;
+    font-weight: 300;
+    color: #FFB52B
+}
+.image-content > h4 > a {
+    color: #FFB52B;
+}
+.image-content > h4 > a:hover {
+    color: #2B88FF
+}
+
+#main-content-wrapper article {
+    width: 50%;
+    margin-top: 100px;
+}
+
+#main-content-wrapper article h2 {
+   text-align: center;
+}
+#main-content-wrapper article p {
+    max-width: 300px;
+    margin:0 auto;
+}
+
 #aside-content-wrapper {
     background-color:plum;
     width:20%;
