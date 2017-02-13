@@ -129,17 +129,17 @@ aside-right {
 #aside-right h3 {
     text-align: center;
 }
-#latest-work {
+#Latest-work {
     list-style-type: none;
 }
-#latest-work > li {
+#Latest-work > li {
     padding-top: 15px;
     padding-bottom: 15px;
     width: 100%;
     border-bottom: 1px black solid;
 }
 
-#latest-work > li:before {
+#Latest-work > li:before {
     content:'';
     border-color: transparent #008eef;
     border-style: solid;
@@ -151,12 +151,26 @@ aside-right {
     top:.9em;
     position:relative;
 }
-
+#favorite-sites {
+    background-image: url(img/BG.jpeg);
+    border-top:5px #B2790F solid;
+    border-bottom:5px #804fb2 solid;
+}
+#favorite-sites ul {
+      list-style-type: none;
+      display: flex;
+      justify-content: space-around;
+      margin:0;
+      padding: 40px;
+}
 footer {
-    background-color:coral;
-    margin:0;
+    background-color:#fff;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    min-height: 100px;
 }
 
 footer > h1 {
     margin:0;
+    transform: translateY(50%);
 }
